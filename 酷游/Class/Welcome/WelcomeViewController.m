@@ -7,7 +7,6 @@
 //
 
 #import "WelcomeViewController.h"
-#import "LWDTabBarController.h"
 #import "LLPopTableViewController.h"
 @interface WelcomeViewController ()<UIScrollViewDelegate>//*************************************************22222
 @property(nonatomic,strong)UIPageControl* pc;
@@ -41,7 +40,7 @@
     for(int i=0;i<5;i++)
     {
         //格式化出图片名称
-        NSString* imageName=[NSString stringWithFormat:@"%d.jpg",i+1];
+        NSString* imageName=[NSString stringWithFormat:@"bg%d.jpg",i+1];
        //2.11创建一个视图对象
         UIImageView* iv=[[UIImageView alloc]initWithImage:[UIImage imageNamed:imageName]];
         //2.12设置图片视图的位置大小
@@ -118,6 +117,7 @@
     //2frame
     button.frame=CGRectMake((iv.bounds.size.width-150)/2, iv.bounds.size.height*0.6, 150, 40);
     //按钮的其他配置
+    [button setBackgroundImage:[UIImage imageNamed:@"act_bt_long"] forState:UIControlStateNormal];
     [button setTitle:@"进入应用" forState:UIControlStateNormal];
     
     
@@ -131,14 +131,15 @@
 /*按钮响应方法*/
 -(void)enterApp:(UIButton*)button
 {
-//   LWDTabBarController * loginViewController = [[LWDTabBarController alloc]init];
-//    //获取应用的主window对象，先获取
-//    UIWindow *window=[UIApplication sharedApplication].keyWindow;   
-////    //更换window的跟视图控制器为mainVC由于welcome不再是window的跟视图控制器了。所以就会被释放，，，但使用present不会被释放
-//        window.rootViewController=loginViewController;
+  
+    //获取应用的主window对象，先获取
+    UIWindow *window=[UIApplication sharedApplication].keyWindow;   
+//    //更换window的跟视图控制器为mainVC由于welcome不再是window的跟视图控制器了。所以就会被释放，，，但使用present不会被释放
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    window.rootViewController=[storyboard instantiateViewControllerWithIdentifier:@"mainScene"];
     
-    //2push
-    [self performSegueWithIdentifier:@"enterApp" sender:nil];
+//    //2push
+//    [self performSegueWithIdentifier:@"enterApp" sender:nil];
 }
 
 

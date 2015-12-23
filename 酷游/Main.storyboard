@@ -28,7 +28,7 @@
         <!--Item-->
         <scene sceneID="Z91-wI-K7M">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lSx-Oq-3D0" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="mainScene" automaticallyAdjustsScrollViewInsets="NO" id="lSx-Oq-3D0" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="K0g-oO-YCH"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Yea-qK-eUu">
@@ -78,7 +78,6 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="城市选择" id="G5L-Zp-8Yk">
-                        <barButtonItem key="leftBarButtonItem" title="登录" id="PDB-cX-TL8"/>
                         <barButtonItem key="rightBarButtonItem" image="icon_map" id="3M7-kv-khe">
                             <connections>
                                 <action selector="reloadLocation:" destination="4Vj-b5-Elf" id="fsH-lr-9M6"/>
