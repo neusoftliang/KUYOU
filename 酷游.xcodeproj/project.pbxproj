@@ -31,7 +31,6 @@
 		852773181C106B7D005105B4 /* sceen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8527730D1C106B7D005105B4 /* sceen.jpg */; };
 		852C83B71C15A97D003715A4 /* LLPopTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 852C83B61C15A97D003715A4 /* LLPopTableViewController.m */; };
 		852C83BA1C15B767003715A4 /* LLCityDescTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 852C83B91C15B766003715A4 /* LLCityDescTableViewController.m */; };
-		852E0FC01C2963D20044B6DE /* act_bt_long.png in Resources */ = {isa = PBXBuildFile; fileRef = 852E0FBF1C2963D20044B6DE /* act_bt_long.png */; };
 		852E0FD01C2968C90044B6DE /* bg5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 852E0FCB1C2968C90044B6DE /* bg5.jpg */; };
 		852E0FD11C2968C90044B6DE /* bg4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 852E0FCC1C2968C90044B6DE /* bg4.jpg */; };
 		852E0FD21C2968C90044B6DE /* bg3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 852E0FCD1C2968C90044B6DE /* bg3.jpg */; };
@@ -138,7 +137,6 @@
 		852C83B61C15A97D003715A4 /* LLPopTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLPopTableViewController.m; sourceTree = "<group>"; };
 		852C83B81C15B766003715A4 /* LLCityDescTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLCityDescTableViewController.h; sourceTree = "<group>"; };
 		852C83B91C15B766003715A4 /* LLCityDescTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLCityDescTableViewController.m; sourceTree = "<group>"; };
-		852E0FBF1C2963D20044B6DE /* act_bt_long.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = act_bt_long.png; sourceTree = "<group>"; };
 		852E0FCB1C2968C90044B6DE /* bg5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg5.jpg; sourceTree = "<group>"; };
 		852E0FCC1C2968C90044B6DE /* bg4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg4.jpg; sourceTree = "<group>"; };
 		852E0FCD1C2968C90044B6DE /* bg3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg3.jpg; sourceTree = "<group>"; };
@@ -312,7 +310,6 @@
 				852772AB1C106476005105B4 /* ViewController.h */,
 				852772AC1C106476005105B4 /* ViewController.m */,
 				852772B11C106476005105B4 /* Assets.xcassets */,
-				852E0FBF1C2963D20044B6DE /* act_bt_long.png */,
 				852772E81C10660F005105B4 /* Main.storyboard */,
 				852772B31C106476005105B4 /* LaunchScreen.storyboard */,
 				852772B61C106476005105B4 /* Info.plist */,
@@ -688,7 +685,6 @@
 			files = (
 				852E0FD41C2968C90044B6DE /* bg1.jpg in Resources */,
 				852E0FD01C2968C90044B6DE /* bg5.jpg in Resources */,
-				852E0FC01C2963D20044B6DE /* act_bt_long.png in Resources */,
 				8554D6BF1C13DFB40075B810 /* cityGroups.plist in Resources */,
 				852E0FD21C2968C90044B6DE /* bg3.jpg in Resources */,
 				852772E91C10660F005105B4 /* Main.storyboard in Resources */,
